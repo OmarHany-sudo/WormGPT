@@ -1,68 +1,83 @@
-# 🐛 Worm-AI CLI — GrokApi Edition
+# 🐳 ORCA AI CLI — GrokApi Edition  
+### **By OrcaTech — Developed by Omar Hany**
 
-**Worm-AI CLI** is a sleek command-line interface (CLI) for interacting with Grok models through an **unofficial reverse-engineered API wrapper**.
-It features jailbreak injection, a customizable terminal UI, and a lightweight design for fast and flexible LLM interaction.
+```
+ ██████╗ ██████╗  ██████╗  █████╗     █████╗ ██╗
+██╔════╝██╔═══██╗██╔════╝ ██╔══██╗   ██╔══██╗██║
+██║     ██║   ██║██║  ███╗███████║   ███████║██║
+██║     ██║   ██║██║   ██║██╔══██║   ██╔══██║██║
+╚██████╗╚██████╔╝╚██████╔╝██║  ██║██╗██║  ██║██║
+ ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝
+               ORCA AI — CLI Framework
+```
 
-> ⚡ Lightweight. Powerful. Terminal-native.
-> Built with ❤️ by [@kafyasfngl](https://github.com/kafyasfngl)
+---
+
+## 🌟 Overview
+
+**Orca AI CLI** is a sleek command-line interface for interacting with **Grok models** via an **unofficial reverse-engineered API wrapper**.  
+It includes jailbreak injection, UI customization, and a lightweight architecture optimized for fast and flexible LLM interaction.
+
+> ⚡ Lightweight. Powerful. Terminal-native.  
+> **Built with ❤️ by Omar Hany — OrcaTech**
+
+---
+
+## 🏷️ Badges
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Framework](https://img.shields.io/badge/CLI-Framework-orange)
+![OrcaTech](https://img.shields.io/badge/OrcaTech-Offical-black)
 
 ---
 
 ## 🚀 Features
 
-* 🔗 **Unofficial Grok API wrapper** (reverse-engineered backend)
-* 🧠 **Jailbreak system** built-in for unrestricted responses
-* 🎨 Fully **customizable terminal UI** — colors, banners, prompt style
-* ⚙️ Modular design for easy backend or UI replacement
+- 🔗 **Unofficial Grok API wrapper** (reverse-engineered backend)  
+- 🧠 **Built-in jailbreak system**  
+- 🎨 **Customizable terminal UI**  
+- ⚙️ Modular and extensible CLI core  
 
 ---
 
 ## 🧩 Backend / API
 
-Worm-AI uses a **reverse-engineered Grok API wrapper** originally developed here:
+Orca AI CLI uses a **reverse-engineered Grok API wrapper** originally developed here:
 
-> [https://github.com/realasfngl/Grok-Api](https://github.com/realasfngl/Grok-Api)
+➡️ https://github.com/realasfngl/Grok-Api
 
-This wrapper acts as a proxy-like interface, allowing the CLI to access Grok endpoints **without official API credentials**.
-
-> ⚠️ **Disclaimer / Legal Notice**
->
-> * This project is **unofficial** and not affiliated with xAI or Grok.
-> * For research, educational, and local testing purposes **only**.
-> * Avoid misuse, heavy scraping, or violating API provider terms.
+> ⚠️ **Disclaimer**
+> - Unofficial project  
+> - Not affiliated with xAI or Grok  
+> - For research and local testing only  
 
 ---
 
 ## 📦 Requirements
 
-* Python **3.8+**
-* `pip` installed
+- Python **3.8+**  
+- `pip` installed  
 
 ---
 
 ## ⚙️ Installation
 
-Clone the repository:
-
 ```bash
-git clone https://github.com/kafyasfngl/worm-ai
-cd worm-ai
+git clone https://github.com/OmarHany-sudo/WormGPT
+cd WormGPT
 pip install -r requirements.txt
 python3 main.py
 ```
 
 ---
 
-
 ## 💬 Usage
-
-Run the CLI:
 
 ```bash
 python3 main.py
 ```
-
-Then start chatting:
 
 ```
 > Who created SpaceX?
@@ -72,31 +87,36 @@ Then start chatting:
 
 ## 🎨 Customizable CLI UI
 
-You can change the terminal experience to your style:
-
-* **Banner color** & ASCII logo
-* **Prompt symbol**
-* **Typing animation speed**
-
+- ASCII banner customization  
+- Prompt theming  
+- Animation styles  
 
 ---
 
 ## 🔒 Security Notes
 
-* Do **not** commit encrypted folders like `pyarmor_runtime_000000/` to public repos.
-* Store private configs or endpoints in a `.env` file and add it to `.gitignore`.
-* Obfuscate sensitive modules using [PyArmor](https://pyarmor.readthedocs.io/en/latest/).
+- Do not commit `pyarmor_runtime_000000/`  
+- Use `.env` for secrets  
+- Use **PyArmor** for module protection  
 
 ---
 
-## 👨‍💻 Credits
+## 👨‍💻 Author
 
-**Author:** [@kafyasfngl](https://github.com/kafyasfngl)
-**Thanks to:** [@neo](https://github.com/realasfngl)
-**Telegram:** [t.me/xsocietyforums](https://t.me/xsocietyforums)
+**Developer:** Omar Hany  
+**Company:** OrcaTech  
+**Website:** https://orcatech-eg.com  
 
 ---
 
-### 🌐 Project URL
+## 🌐 Project URL
 
-> [https://github.com/kafyasfngl/worm-ai](https://github.com/kafyasfngl/worm-ai)
+➡️ https://github.com/OmarHany-sudo/WormGPT
+
+---
+
+## 🎁 Footer
+
+```
+───────────── ORCATECH — Empowering Intelligence ─────────────
+```
