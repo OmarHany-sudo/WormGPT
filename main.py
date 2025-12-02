@@ -48,8 +48,8 @@ def main():
     client = WormAi(current_proxy)
     extra_data = None
     last_response = ""
-    print("Worm-Ai CLI — type your message and press Enter. Commands: /exit /restart /web /proxy <url>")
-    print("Made With <3 | t.me/xsocietyforums | github.com/kafyasfngl")
+    print("Orca AI CLI — Type your command and press Enter. Available commands: /exit /restart /scan /proxy <url>")
+    print("Developed by Omar Hany — for OrcaTech | orcatech.netlify.app")
     while True:
         try:
             msg = input("> ").strip()
